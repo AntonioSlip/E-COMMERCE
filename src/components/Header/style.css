@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(74, 61, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.header h1{
+    color: azure;
+}
+
+.produtos_lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+    grid-gap: 1.5rem;
+}
+
+.produtos_lista img{
+    height: 190px;
+    width: 237px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.produtos_lista p{
+    color: azure;
+    background-color: rgb(124, 124, 124);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(255, 238, 0);
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.filter button{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.filter input{
+    width: 100px;
+}
+
+.main-container{
+    background-image: url("../../assets/img/the-witcher-netflix.png");
+    background-size: 100%;
+    padding: 1rem;
+}
